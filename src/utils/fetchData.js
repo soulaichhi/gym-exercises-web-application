@@ -1,3 +1,5 @@
+
+
 export const exercisesOptions = {
     method: 'GET',
     headers: {
