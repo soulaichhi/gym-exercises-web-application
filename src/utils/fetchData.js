@@ -1,5 +1,5 @@
 
-
+//process.env configuration required!!!!!! 
 export const exercisesOptions = {
     method: 'GET',
     headers: {
@@ -7,7 +7,16 @@ export const exercisesOptions = {
       'X-RapidAPI-Key': 'ee6944cb0dmshc2773b356cd0baap1b2b36jsn43bee69c98b3',
       'X-RapidAPI-Host': 'exercisedb.p.rapidapi.com'
     }
-  };
+};
+
+export const youtubeOptions = {
+  method: 'GET',
+  headers: {
+    'X-RapidAPI-Key': 'ee6944cb0dmshc2773b356cd0baap1b2b36jsn43bee69c98b3',
+    'X-RapidAPI-Host': 'youtube-search-and-download.p.rapidapi.com'
+  }
+};
+  
 
 
 export const fetchData = async (url, options) => {
